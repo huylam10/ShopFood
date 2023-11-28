@@ -98,7 +98,7 @@ public class DataBase extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL(cteateTableSanPham);
 
         sqLiteDatabase.execSQL("INSERT INTO VaiTro VALUES(1, 'ADMIN', 'ADMIN', '24/11/2023', '24/11/2023'),(2, 'NHANVIEN', 'NHANVIEN', '24/11/2023', '24/11/2023'),(3, 'KHACHHANG', 'KHACHHANG', '24/11/2023', '24/11/2023')");
-        sqLiteDatabase.execSQL("INSERT INTO TaiKhoan VALUES(1, 'ADMIN', '1', 1), (2, 'KH1', 'KH1', 3), (3, 'NV1', 'NV1', 2)");
+        sqLiteDatabase.execSQL("INSERT INTO TaiKhoan VALUES(1, 'ADMIN', '1', 1), (2, 'KH1', 'KH1', 3), (3, 'NV1', 'NV1', 2),(4, 'KH2', 'KH2', 3)");
         sqLiteDatabase.execSQL("INSERT INTO ThongTinNguoiDung VALUES(0,2,'huylam', 'null', '012345678', 'ThaiBinh', '700042', '15/10/2003', 'Name', '01/12/2023', '01/12/2023'), (1,4,'huylam', 'null', '012345678', 'HaNoi', '700042', '15/10/2003', 'Nu', '01/12/2023', '01/12/2023') ");
 
     }
