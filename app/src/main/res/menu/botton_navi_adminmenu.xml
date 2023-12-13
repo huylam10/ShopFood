@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:icon="@drawable/icon_home_selected"
+        android:id="@+id/home1"/>
+    <item android:title="Order history"
+        android:icon="@drawable/icon_order_selected"
+        android:id="@+id/order1"/>
+    <item android:title="Statistical"
+        android:icon="@drawable/thongke"
+        android:id="@+id/Statistical1"/>
+    <item android:title="Manager Account"
+        android:icon="@drawable/icon_setting_selected"
+        android:id="@+id/setting1"/>
+</menu>

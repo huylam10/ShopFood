@@ -70,16 +70,18 @@ public class TaiKhoanDAO {
         return row;
     }
 
-//    public List<TaiKhoan> getAll{
-//        String sql ="SELECT * FROM TaiKhoan";
-//        return getAllTaiKhoan(sql);
-//    }
+    public List<TaiKhoan> getAll(){
+        String sql ="SELECT * FROM TaiKhoan";
+        return getAllTaiKhoan(sql);
+    }
+
 
     public TaiKhoan getName(String name){
         String sql = "SELECT * FROM TaiKhoan WHERE UserName=?";
         List<TaiKhoan> list = getAllTaiKhoan(sql, new String[]{name});
-        if (list.size() == 0)
+        if (list.size() == 0) {
             return null;
+        }
         return list.get(0);
     }
 

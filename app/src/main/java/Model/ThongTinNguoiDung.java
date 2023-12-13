@@ -53,8 +53,9 @@ public class ThongTinNguoiDung implements Serializable {
         return fullName;
     }
 
-    public void setFullName(String fullName) {
+    public String setFullName(String fullName) {
         this.fullName = fullName;
+        return fullName;
     }
 
     public String getEmailNguoiDung() {
